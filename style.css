@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.square {
+  height: 200px;
+  width: 200px;
+  border-style: solid;
+  border-color: black;
+}
+
+.grid {
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 618px;
+  height: 618px;
+}
+
+.mole {
+  background-image: url('mole.jpg');
+  background-size: cover;
+}
